@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 
 import SiteHeader from "./components/SiteHeader";
@@ -20,6 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <div className="relative z-20">
+          <SpeedInsights />
           <SiteHeader />
         </div>
         <div className="fixed top-0 left-0 h-screen w-screen z-10">
