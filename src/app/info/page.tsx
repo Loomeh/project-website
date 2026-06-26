@@ -9,7 +9,7 @@ export default function Info() {
                 </p>
                 <p>
                     <strong>Q: How do I participate in the open beta?<br/></strong>
-                    A: Download the launcher from the launcher from the <Link href="/download" className="text-red-500 hover:text-red-700 underline">download page</Link> and link your Discord account when asked. That&apos;s it!
+                    A: Download the launcher from the <Link href="/download" className="text-red-500 hover:text-red-700 underline">download page</Link> and link your Discord account when asked. That&apos;s it!
                 </p>
                 <br/>
                 <p>
